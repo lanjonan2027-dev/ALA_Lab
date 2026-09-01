@@ -1,6 +1,8 @@
 #This is the same test case as in vec.py code.
-
-from vector import Vec;
+import sys;
+import platform
+sys.path.append("../")
+from ALA_Lab.vector import Vec;
 
 print("v1 vector is initialised here")
 v1 = Vec([2, -3, 4.5])

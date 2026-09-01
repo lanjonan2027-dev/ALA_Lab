@@ -1,0 +1,48 @@
+v1 = Vec([2, -3, 4.5] * 8000)
+2.11780e-03
+
+v2 = Vec([2, 9, 3.6] * 8000)
+2.04300e-03
+
+v3 = v1 + v2
+3.37660e-03
+
+v4 = v1 * 3
+3.71580e-03
+
+v3 = 3 * v1
+3.50840e-03
+
+v3 *= -2
+2.63340e-03
+
+v4 = v3 - v1
+4.55370e-03
+
+v5 = -v1
+4.52250e-03
+
+v4 += v2
+2.92500e-03
+
+z = Vec.zeros(4)
+1.75000e-05
+
+o = Vec.ones(4)
+9.00000e-06
+
+u = Vec.uniform(3)
+2.45000e-05
+
+len(v1)
+4.00000e-06
+
+v1 = v1.norm()
+2.92830e-03
+
+Device specifiactions of this device:
+
+Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+Operating system: Windows
+Machine: AMD64
+Processor: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel

@@ -1,0 +1,38 @@
+v1 vector is initialised here
+v1 = [2, -3, 4.5]
+
+Scalar multiplication of the vector v1 with scalar 3
+3 * v1 = [6, -9, 13.5]
+
+Scalar multiplication of the vector v1 with scalar 2 (in-place multication)
+v3 *= -2 = [-12, 18, -27.0]
+
+Addition of two vectors v1 and v3 and is stored in v2
+v1 + v3 = [-10, 15, -22.5]
+
+ Subtraction of two vectors v3 and v1 and is stored in v4
+v3 - v1 = [-14, 21, -31.5]
+
+ Negation of vector v1 is stored in v5
+-v1 = [-2, 3, -4.5]
+
+Addition of two vectors v6 and v7 and is stored in v6 (in-place addition)
+v6 = [2, 4, 6]
+v7 = [-1, 3, 5]
+After v6 += v7:
+v6 = [1, 7, 11]
+
+ Returns a vector with zeroes
+Vec.zeros(4) = [0, 0, 0, 0]
+
+ Returns a vector with ones
+Vec.ones(6) = [1, 1, 1, 1, 1, 1]
+
+ Returns a vector uniform random numbers
+Vec.uniform(3) = [0.5868911729321221, 0.33419523520821526, 0.17775443526695534]
+
+ length of vector v1 len(v1) = 3
+
+ Norm form
+v8 = [1, 2, 2]
+norm(v8) = 3.0
